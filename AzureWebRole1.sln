@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureWebRole1", "WindowsAzure1\AzureWebRole1.ccproj", "{F9766714-3E00-40A1-A822-590844519E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{9CB564BD-BD94-4AA3-9C2A-4066AEFB9515}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureWorkerRole1", "WorkerRole1\AzureWorkerRole1.ccproj", "{D40210A7-CC37-4F71-B30B-85A908DBFB34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole2\WorkerRole1.csproj", "{18A85B6D-A278-4090-B5F1-00181FC5DA80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9766714-3E00-40A1-A822-590844519E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9766714-3E00-40A1-A822-590844519E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9766714-3E00-40A1-A822-590844519E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9766714-3E00-40A1-A822-590844519E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB564BD-BD94-4AA3-9C2A-4066AEFB9515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB564BD-BD94-4AA3-9C2A-4066AEFB9515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB564BD-BD94-4AA3-9C2A-4066AEFB9515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB564BD-BD94-4AA3-9C2A-4066AEFB9515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40210A7-CC37-4F71-B30B-85A908DBFB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40210A7-CC37-4F71-B30B-85A908DBFB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40210A7-CC37-4F71-B30B-85A908DBFB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40210A7-CC37-4F71-B30B-85A908DBFB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A85B6D-A278-4090-B5F1-00181FC5DA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A85B6D-A278-4090-B5F1-00181FC5DA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A85B6D-A278-4090-B5F1-00181FC5DA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A85B6D-A278-4090-B5F1-00181FC5DA80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
